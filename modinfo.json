@@ -1,0 +1,23 @@
+{
+  "author": "wondible",
+  "build": "83796",
+  "category": ["ui", "lobby"],
+  "context": "client",
+  "date": "2015/07/11",
+  "description": "Use regular instead of hidden text fields for lobby passwords.",
+  "display_name": "Show Lobby Password",
+  "forum": null,
+  "identifier": "com.wondible.pa.show_lobby_password",
+  "priority": 100,
+  "scenes": {
+    "new_game": [
+      "coui://ui/mods/show_lobby_password/new_game.js"
+    ],
+    "server_browser": [
+      "coui://ui/mods/show_lobby_password/server_browser.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+

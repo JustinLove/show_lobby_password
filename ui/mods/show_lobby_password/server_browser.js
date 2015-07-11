@@ -1,0 +1,1 @@
+$('#password').attr('type', 'text')
